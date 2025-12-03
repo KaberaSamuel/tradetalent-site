@@ -91,6 +91,7 @@ const HeroSection = () => {
                   fontWeight: 600,
                   letterSpacing: "0.1em",
                 }}
+                data-aos-delay="500"
               >
                 THE FUTURE OF WORK
               </Typography>
