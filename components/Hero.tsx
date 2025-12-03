@@ -20,6 +20,7 @@ const HeroSection = () => {
         alignItems: "center",
         px: 1,
         py: 4,
+        borderBottom: "1px solid #d1d5dc",
       }}
     >
       {/* Grid Background */}
@@ -91,7 +92,6 @@ const HeroSection = () => {
                   fontWeight: 600,
                   letterSpacing: "0.1em",
                 }}
-                data-aos-delay="500"
               >
                 THE FUTURE OF WORK
               </Typography>
@@ -210,7 +210,6 @@ const HeroSection = () => {
               sx={{
                 borderRadius: "24px",
                 overflow: "hidden",
-                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
                 transform: {
                   xs: "none",
                   lg: "perspective(1000px) rotateY(-3deg)",
