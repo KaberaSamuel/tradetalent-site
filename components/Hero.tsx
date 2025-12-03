@@ -61,13 +61,20 @@ const HeroSection = () => {
           sx={{
             display: "grid",
             gridTemplateColumns: { xs: "1fr", lg: "1fr 1fr" },
-            gap: 6,
+            gap: 5,
+            alignItems: "center",
           }}
         >
           {/* Left Content */}
           <Box>
             {/* Tagline */}
-            <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                mb: 3,
+              }}
+            >
               <Box
                 sx={{
                   width: 60,
@@ -97,6 +104,7 @@ const HeroSection = () => {
                   xs: "3rem",
                   sm: "4.5rem",
                   md: "5.5rem",
+                  lg: "7rem",
                 },
                 fontWeight: 700,
                 lineHeight: 1.1,
@@ -114,6 +122,7 @@ const HeroSection = () => {
                   xs: "3rem",
                   sm: "4.5rem",
                   md: "5.5rem",
+                  lg: "7rem",
                 },
                 fontWeight: 700,
                 lineHeight: 1.1,
@@ -192,35 +201,6 @@ const HeroSection = () => {
                 Explore Talents
               </Button>
             </Box>
-
-            {/* Scroll Indicator */}
-            <Box
-              sx={{
-                display: { xs: "none", md: "flex" },
-                alignItems: "center",
-                gap: 2,
-                mt: 8,
-              }}
-            >
-              <Typography
-                variant="caption"
-                sx={{
-                  color: "#94a3b8",
-                  fontSize: "0.75rem",
-                  letterSpacing: "0.1em",
-                  textTransform: "uppercase",
-                }}
-              >
-                Scroll to Explore
-              </Typography>
-              <Box
-                sx={{
-                  width: 1,
-                  height: 60,
-                  bgcolor: "#e2e8f0",
-                }}
-              />
-            </Box>
           </Box>
 
           {/* Right Side - Image Card */}
@@ -249,7 +229,7 @@ const HeroSection = () => {
                 alt="Team collaboration"
                 sx={{
                   width: "100%",
-                  height: { xs: 400, md: 600 },
+                  height: { xs: 400, md: 580 },
                   objectFit: "cover",
                 }}
               />
