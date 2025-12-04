@@ -75,7 +75,7 @@ const ProcessSteps = ({ steps }: { steps: StepTypes[] }) => {
                     width: { xs: 64, md: 72 },
                     height: { xs: 64, md: 72 },
                     borderRadius: "16px",
-                    bgcolor: "#10b981",
+                    bgcolor: "secondary.main",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -98,7 +98,7 @@ const ProcessSteps = ({ steps }: { steps: StepTypes[] }) => {
                       lg: "2.25rem",
                     },
                     fontWeight: 700,
-                    color: "#1e293b",
+                    color: "primary.main",
                     mb: 2.5,
                     position: "relative",
                     zIndex: 1,
@@ -112,7 +112,7 @@ const ProcessSteps = ({ steps }: { steps: StepTypes[] }) => {
                   variant="body1"
                   sx={{
                     fontSize: { xs: "1rem", md: "1.0625rem" },
-                    color: "#64748b",
+                    color: "primary.dark",
                     lineHeight: 1.5,
                     mb: 3.5,
                     position: "relative",
@@ -130,7 +130,7 @@ const ProcessSteps = ({ steps }: { steps: StepTypes[] }) => {
                     display: "inline-flex",
                     alignItems: "center",
                     gap: 1,
-                    color: "#10b981",
+                    color: "secondary.main",
                     fontWeight: 600,
                     fontSize: "1rem",
                     position: "relative",
@@ -159,15 +159,14 @@ const ProcessSteps = ({ steps }: { steps: StepTypes[] }) => {
                 sx={{
                   borderRadius: "24px",
                   overflow: "hidden",
-                  boxShadow: "0 20px 60px rgba(0, 0, 0, 0.12)",
                   transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                  boxShadow: 2,
 
                   "&:hover": {
                     transform: {
                       xs: "none",
                       lg: "perspective(1000px) rotateY(-1deg) scale(1.02)",
                     },
-                    boxShadow: "0 28px 80px rgba(0, 0, 0, 0.16)",
                   },
                 }}
               >
@@ -195,7 +194,7 @@ const ProcessSteps = ({ steps }: { steps: StepTypes[] }) => {
                 width: "23px",
                 height: "23px",
                 borderRadius: "50%",
-                bgcolor: "#1e293b",
+                bgcolor: "#71717b",
                 transform: "translate(-50%, -50%)",
                 border: "4px solid #fff",
                 zIndex: 2,

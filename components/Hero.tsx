@@ -19,7 +19,8 @@ const HeroSection = () => {
         display: "flex",
         alignItems: "center",
         px: { xs: 0, md: 1 },
-        py: 4,
+        pt: 4,
+        pb: { xs: 4, lg: 6 },
         borderBottom: "1px solid #d1d5dc",
       }}
     >
@@ -32,10 +33,10 @@ const HeroSection = () => {
           right: 0,
           bottom: 0,
           backgroundImage: `
-            linear-gradient(rgba(0, 0, 0, 0.07) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(0, 0, 0, 0.07) 1px, transparent 1px)
+            linear-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0, 0, 0, 0.06) 1px, transparent 1px)
           `,
-          backgroundSize: "30px 30px",
+          backgroundSize: "28px 28px",
           zIndex: 0,
 
           "&::after": {
@@ -44,7 +45,7 @@ const HeroSection = () => {
             bottom: 0,
             left: 0,
             right: 0,
-            height: "50%",
+            height: { xs: "100%", md: "40%" },
             background: "linear-gradient(to bottom, transparent, #f8f9fa)",
             pointerEvents: "none",
           },
@@ -80,14 +81,14 @@ const HeroSection = () => {
                 sx={{
                   width: 60,
                   height: 2,
-                  bgcolor: "#14b8a6",
+                  bgcolor: "secondary.main",
                   mr: 2,
                 }}
               />
               <Typography
                 variant="overline"
                 sx={{
-                  color: "#14b8a6",
+                  color: "secondary.main",
                   fontSize: "0.875rem",
                   fontWeight: 600,
                   letterSpacing: "0.1em",
@@ -110,7 +111,7 @@ const HeroSection = () => {
                 fontWeight: 700,
                 lineHeight: 1.1,
                 mb: 2,
-                color: "#1e293b",
+                color: "primary.main",
               }}
             >
               Trade
@@ -128,7 +129,7 @@ const HeroSection = () => {
                 fontWeight: 700,
                 lineHeight: 1.1,
                 mb: 4,
-                color: "#14b8a6",
+                color: "secondary.main",
               }}
             >
               Talent.
@@ -139,7 +140,7 @@ const HeroSection = () => {
               variant="h6"
               sx={{
                 fontSize: { xs: "1.125rem", md: "1.25rem" },
-                color: "#64748b",
+                color: "primary.dark",
                 lineHeight: 1.6,
                 mb: 5,
                 maxWidth: "600px",
@@ -162,7 +163,7 @@ const HeroSection = () => {
                 variant="contained"
                 endIcon={<ArrowForwardIcon />}
                 sx={{
-                  bgcolor: "#1e293b",
+                  bgcolor: "primary.main",
                   color: "white",
                   px: 4,
                   py: 1.5,
@@ -184,7 +185,7 @@ const HeroSection = () => {
               <Button
                 variant="outlined"
                 sx={{
-                  color: "#1e293b",
+                  color: "primary.main",
                   borderColor: "#e2e8f0",
                   px: 4,
                   py: 1.5,

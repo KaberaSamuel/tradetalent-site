@@ -75,7 +75,7 @@ const ExchangeProtocol = () => {
             sx={{
               fontSize: { xs: "2.25rem", sm: "2.75rem", md: "3.25rem" },
               fontWeight: 700,
-              color: "#1e293b",
+              color: "primary.main",
               mb: 2,
               lineHeight: 1.2,
             }}
@@ -86,7 +86,7 @@ const ExchangeProtocol = () => {
             variant="body1"
             sx={{
               fontSize: { xs: "1rem", md: "1.125rem" },
-              color: "#64748b",
+              color: "primary.dark",
               fontWeight: 400,
               lineHeight: 1.6,
             }}
@@ -118,7 +118,7 @@ const ExchangeProtocol = () => {
                 top: 0,
                 bottom: 0,
                 width: "2px",
-                bgcolor: "#e2e8f0",
+                bgcolor: "#e7e5e4",
                 transform: "translateX(-50%)",
               }}
             />
