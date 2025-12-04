@@ -14,11 +14,11 @@ const HeroSection = () => {
       sx={{
         position: "relative",
         minHeight: "100vh",
-        backgroundColor: "#f8f9fa",
+        backgroundColor: "white",
         overflow: "hidden",
         display: "flex",
         alignItems: "center",
-        px: 1,
+        px: { xs: 0, md: 1 },
         py: 4,
         borderBottom: "1px solid #d1d5dc",
       }}
