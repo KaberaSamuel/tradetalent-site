@@ -1,7 +1,7 @@
 import { Box, Typography, Card, CardMedia, Link } from "@mui/material";
 import Icon from "@mdi/react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import type { StepTypes } from "./ExchangeProtocol";
+import type { StepTypes } from "@/sections/ExchangeProtocol";
 
 const ProcessSteps = ({ steps }: { steps: StepTypes[] }) => {
   return (

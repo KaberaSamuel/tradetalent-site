@@ -1,7 +1,7 @@
-import HeroSection from "@/components/Hero";
-import ExchangeProtocol from "@/components/ExchangeProtocol";
-import OurPartners from "@/components/OurPartners";
-import CTASection from "@/components/CTASection";
+import HeroSection from "@/sections/Hero";
+import ExchangeProtocol from "@/sections/ExchangeProtocol";
+import OurPartners from "@/sections/OurPartners";
+import CTASection from "@/sections/CTASection";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <HeroSection />
       <ExchangeProtocol />
       <OurPartners />
-      <CTASection />
+      {/* <CTASection /> */}
     </div>
   );
 }

@@ -1,14 +1,6 @@
-import {
-  Box,
-  Container,
-  Typography,
-  Card,
-  CardMedia,
-  Link,
-} from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import { mdiAccountMultiplePlus, mdiBolt, mdiShieldCheck } from "@mdi/js";
-
-import ProcessSteps from "./ProcessSteps";
+import ProcessSteps from "@/components/ProcessSteps";
 
 export interface StepTypes {
   number: string;

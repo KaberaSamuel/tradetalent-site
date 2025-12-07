@@ -1,4 +1,3 @@
-// components/OurPartners.tsx
 "use client";
 
 import { Box, Container, Typography, Card } from "@mui/material";
