@@ -1,6 +1,7 @@
 import HeroSection from "@/components/Hero";
 import ExchangeProtocol from "@/components/ExchangeProtocol";
 import OurPartners from "@/components/OurPartners";
+import CTASection from "@/components/CTASection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <ExchangeProtocol />
       <OurPartners />
+      <CTASection />
     </div>
   );
 }
